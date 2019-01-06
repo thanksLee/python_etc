@@ -1,0 +1,14 @@
+.*.bak
+.idea
+*.pyc
+/venv_36/
+/migrations/
+/logs/
+.vscode/
+py356/
+download/
+/venv/
+*.xml
+*.png
+*.json
+*.csv
