@@ -430,3 +430,14 @@
       여기서, delimiter는 구분문자를 지정하고, quotechar는 어떤 기호로 데이터를 감싸고 있는지를 지정한다.
     > csv.writer(파일포인터, delimiter=",", quotechar='"')
 ```
+### EXCEL
+```
+- ex) ex23.py
+- 파이썬에서 엑설 파일을 분석하기 위해서는 파이썬 엑셀 라이브러리를 설치해야 한다.
+- pip install openpyxl
+- openpyxl 은 파이썬에서 엑셀 파일을 읽고 쓸수 있는 라이브러리이다.
+- 엑셀파일 구조
+    > 보통 엑셀 파일을 book이라고 부른다.
+      book 내부에는 여러개의 sheet가 존재한다.
+      각 시트는 행(row)과 열(column)을 가진 2차원의 셀(cell)로 구성되어 있다.
+```
