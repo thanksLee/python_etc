@@ -3,3 +3,6 @@ requests==2.21.0
 selenium==3.141.0
 pyyaml==3.13
 openpyxl==2.5.12
+numpy==1.16.0
+pandas==0.23.4
+xlrd==1.2.0
